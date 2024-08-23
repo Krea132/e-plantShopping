@@ -47,6 +47,18 @@ body {
     align-items: center;
     justify-content: center;
 }
+.product-title-grid{
+    text-align: center;
+    margin: 10px;
+}
+
+.product-title-grid span{
+    border-top:1px solid #aaaaaa;
+    border-bottom: 1px solid #aaaaaa;
+    display: inline-block;
+    padding: 5px 50px;
+}
+
 .product-list {
     display: flex;
     flex-wrap: wrap;
@@ -91,10 +103,15 @@ body {
     font-size: 1.2rem;
     margin-bottom: 10px;
 }
+.product-desc{
+    margin-bottom: 15px;
+    font-size: 14px;
+}
 
 .product-image {
     max-width: 100%;
     height: 200px; /* Adjust height for better consistency */
+    margin-bottom: 10px;
 }
 
 .product-button {
