@@ -38,10 +38,10 @@ const CartItem = ({ onContinueShopping }) => {
   };
 
   const handleDecrement = (item) => {
-    if (existingItem) {
-        state[index].quantity--;
+    if (item && item.quantity > 1) {
+        dispatch(updateQuantity({ name: item.name, quantity: item.quantity - 1 }));
       } else {
-          state.items.push({ name, image, cost, quantity: 0 });
+        dispatch(removeItem(item.name));
       }
   };
 
