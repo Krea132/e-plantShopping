@@ -277,8 +277,6 @@ function ProductList() {
             </div>
             <div style={styleObjUl}>
                 <div> <a href="#" onClick={(e)=>handlePlantsClick(e)} style={styleA}>Plants</a></div>
-            <div style={styleObjUl}>
-                <div> <a href="#" onClick={(e)=>handlePlantsClick(e)} style={styleA}>Plants</a></div>
                 <div>
                     <a href="#" onClick={(e) =>handleCartClick(e)} style={styleA}>
                         <h1 className='cart'>
@@ -287,7 +285,6 @@ function ProductList() {
                         </h1>
                     </a>
                 </div>
-            </div>
             </div>
         </div>
         {!showCart? (
