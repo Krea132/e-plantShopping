@@ -232,7 +232,6 @@ function ProductList() {
     color: '#fff!important',
     padding: '15px',
     display: 'flex',
-    justifyContent: 'space-between',
     alignIems: 'center',
     fontSize: '20px',
    }
@@ -240,7 +239,6 @@ function ProductList() {
     display: 'flex',
     justifyContent: 'space-between',
     alignItems: 'center',
-    width: '1100px',
    }
    const styleA={
     color: 'white',
