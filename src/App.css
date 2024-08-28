@@ -27,19 +27,18 @@
 .content {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: space-around;
   height: 100vh;
   width: 100vw;
  top: 100px;
   backdrop-filter: blur(4px);
   background-color: rgba(0,0,0,0.5);
   gap: 20px;
+  padding: 0 15px;
 }
 
 .landing_content {
- margin-top: 430px;
-  margin-left: 100px;
-  transform: translate(-50%, -50%);
+ 
   z-index: 1;
   text-align: center;
   /* background-color: red; */
@@ -120,11 +119,15 @@
     align-items: center;
     width: 100vw;
     height: 100vh;
+    overflow: hidden;
+    overflow-y: scroll;
+    display: block;
   }
 
   .landing_content {
     margin-top: 100px; /* Adjust as needed */
-    margin-left: 0;
+    margin-left: auto;
+    margin-right: auto;
     width: 80%; /* Adjust as needed */
     text-align: center;
   }
@@ -132,6 +135,8 @@
   .aboutus_container {
     margin-top: 20px; /* Adjust as needed */
     width: 80%; /* Adjust as needed */
+    margin-left: auto;
+    margin-right: auto;
   }
 }
 
