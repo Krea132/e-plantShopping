@@ -157,14 +157,12 @@ body {
     text-decoration: none;
 }
 .tag {
-    width: 400px;
     display: flex;
     align-items: center;
     justify-content: center;
 }
 
 .tag img {
-    height: 70px;
     width: 70px;
     border-radius: 70%;
     
@@ -174,8 +172,10 @@ body {
     display: flex;
     align-items: center;
     justify-content: center;
-    width: 650px;
     font-size: 19px;
+}
+.luxury a{
+    padding-left:15px;
 }
 .cart{
     color: white;
@@ -245,7 +245,7 @@ body {
   @media (max-width: 768px) {
     .product-card {
       flex: 1 1 calc(50% - 20px); /* Adjust width for 2 cards per row with 20px gap on small screens */
-      max-width: calc(50% - 20px); /* Adjust max-width for 2 cards per row with 20px gap on small screens */
+      max-width: calc(85% - 20px); /* Adjust max-width for 2 cards per row with 20px gap on small screens */
     }
     .navbar {
         flex-direction: column; /* Change flex direction to stack items vertically */
