@@ -199,6 +199,12 @@ function ProductList() {
     justifyContent: 'space-between',
     alignItems: 'center',
    }
+   
+   const styleObjMenu={
+    display: 'flex',
+    justifyContent: 'space-between',
+    alignItems: 'center',
+   }
    const styleA={
     color: 'white',
     fontSize: '30px',
@@ -235,7 +241,14 @@ function ProductList() {
               
             </div>
             <div style={styleObjUl}>
-                <div> <a href="#" onClick={(e)=>handlePlantsClick(e)} style={styleA}>Plants</a></div>
+                <ul style={styleObjMenu}>
+                    <li>
+                         <a href="/" style={styleA}>Home</a>
+                    </li>
+                    <li>
+                         <a href="#" onClick={(e)=>handlePlantsClick(e)} style={styleA}>Plants</a>
+                    </li>
+                </ul>
                 <div>
                     <a href="#" onClick={(e) =>handleCartClick(e)} style={styleA}>
                         <h1 className='cart'>
